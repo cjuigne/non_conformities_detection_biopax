@@ -1,0 +1,34 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+PREFIX bp3: <http://www.biopax.org/release/biopax-level3.owl#>
+
+$supplementaryPrefixes$
+
+# Delete the composition (and stoichiometry) relations of invalid complexes.
+
+DELETE {
+  ?invalidComplex bp3:component ?invalidComplexPart .
+  
+  ?invalidComplex bp3:componentStoichiometry ?stoichioIdent .
+  #?stoichioIdent ?propertyStoichio ?objectStoichio .
+}
+
+WHERE {
+  ?invalidComplex rdf:type bp3:Complex .
+  ?invalidComplex bp3:component ?invalidComplexPart .
+  ?invalidComplexPart rdf:type bp3:Complex .
+  ?invalidComplexPart bp3:component ?invalidComplexPartPart .
+
+  ?invalidComplex bp3:componentStoichiometry ?stoichioIdent .
+  #?stoichioIdent rdf:type ?stoichioIdentType .
+  #?stoichioIdent bp3:physicalEntity ?invalidComplexPart .
+  #?stoichioIdent bp3:stoichiometricCoefficient ?stoichioValue .
+  #?stoichioIdent ?propertyStoichio ?objectStoichio .
+
+}
