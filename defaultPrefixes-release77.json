@@ -1,0 +1,5 @@
+{
+  "chebi": "http://purl.obolibrary.org/obo/CHEBI_",
+  "reactome": "http://www.reactome.org/biopax/77/48887#",
+  "uniprot": "http://purl.uniprot.org/uniprot/"
+}

@@ -187,8 +187,8 @@ def getRepresentationBiopaxOriginal(dataSource, complexIdent, prefixesDict={}, t
 
 	if biopaxFilePath != "":
 		with open(biopaxFilePath, 'w') as rdfFile:
-			rdfFile.write(resultGraph.serialize(format=rdfFormat).decode('UTF-8'))
-	return resultGraph.serialize(format=rdfFormat).decode('UTF-8')
+			rdfFile.write(resultGraph.serialize(format=rdfFormat).encode().decode('UTF-8'))
+	return resultGraph.serialize(format=rdfFormat).encode().decode('UTF-8')
 
 
 
@@ -308,8 +308,8 @@ def getRepresentationBiopaxValid(dataSource, complexIdent, prefixesDict={}, targ
 		resultGraph.add((defaultNS[stoichiometryNodeID], bp3NS['stoichiometricCoefficient'], rdflib.Literal(currentStoichiometricCoeff, datatype=rdflib.namespace.XSD.float)))
 	if biopaxFilePath != "":
 		with open(biopaxFilePath, 'w') as rdfFile:
-			rdfFile.write(resultGraph.serialize(format=rdfFormat).decode('UTF-8'))
-	return(resultGraph.serialize(format=rdfFormat).decode('UTF-8'))
+			rdfFile.write(resultGraph.serialize(format=rdfFormat).encode().decode('UTF-8'))
+	return(resultGraph.serialize(format=rdfFormat).encode().decode('UTF-8'))
 
 
 
