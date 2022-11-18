@@ -1,6 +1,7 @@
 # Detection of non-conformities in molecular complexes in BioPAX
 
 - Get datasets : [BioPAX Reactome level 3](https://reactome.org/download-data#:~:text=Events%20in%20the-,BioPAX%20level%203,-format.)
+- Then, charge the dataset in [Fuseki](https://jena.apache.org/documentation/fuseki2/fuseki-quick-start.html)
 
 - Analysis on *homo sapiens* (original file): [2022_09_19_homo_sapiens_detect_fix_invalid_complexes_biopax.ipynb](https://github.com/cjuigne/non_conformities_detection_biopax/blob/main/2022_09_19_homo_sapiens_detect_fix_invalid_complexes_biopax.ipynb)
 
