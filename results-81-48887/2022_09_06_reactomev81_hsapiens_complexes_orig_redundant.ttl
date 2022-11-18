@@ -1,0 +1,768 @@
+@prefix :         <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix bp:       <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix bp3:      <http://www.biopax.org/release/biopax-level3.owl#> .
+@prefix chebi:    <http://purl.obolibrary.org/obo/chebi/> .
+@prefix chebidb:  <http://purl.obolibrary.org/obo/CHEBI_> .
+@prefix chebirel: <http://purl.obolibrary.org/obo/CHEBI#> .
+@prefix dc:       <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix dyliss:   <http://www-dyliss.irisa.fr/biopaxComplex#> .
+@prefix owl:      <http://www.w3.org/2002/07/owl#> .
+@prefix protege:  <http://protege.stanford.edu/plugins/owl/protege#> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reactome: <http://www.reactome.org/biopax/81/48887#> .
+@prefix swrl:     <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb:    <http://www.w3.org/2003/11/swrlb#> .
+@prefix udb:      <http://purl.uniprot.org/database/> .
+@prefix uniprot:  <http://purl.uniprot.org/uniprot/> .
+@prefix up:       <http://purl.uniprot.org/core/> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsp:      <http://www.owl-ontologies.com/2005/08/07/xsp.owl#> .
+
+reactome:Complex266  dyliss:hasSameComponentAs
+                reactome:Complex6701 .
+
+reactome:Complex2370  dyliss:hasSameComponentAs
+                reactome:Complex2287 .
+
+reactome:Complex13991
+        dyliss:hasSameComponentAs  reactome:Complex14002 .
+
+reactome:Complex1761  dyliss:hasSameComponentAs
+                reactome:Complex1754 , reactome:Complex1746 .
+
+reactome:Complex14558
+        dyliss:hasSameComponentAs  reactome:Complex6061 .
+
+reactome:Complex13423
+        dyliss:hasSameComponentAs  reactome:Complex13393 .
+
+reactome:Complex1911  dyliss:hasSameComponentAs
+                reactome:Complex6706 .
+
+reactome:Complex13402
+        dyliss:hasSameComponentAs  reactome:Complex13371 .
+
+reactome:Complex13394
+        dyliss:hasSameComponentAs  reactome:Complex13405 .
+
+reactome:Complex14850
+        dyliss:hasSameComponentAs  reactome:Complex7054 .
+
+reactome:Complex13373
+        dyliss:hasSameComponentAs  reactome:Complex7141 .
+
+reactome:Complex6976  dyliss:hasSameComponentAs
+                reactome:Complex6978 .
+
+reactome:Complex11287
+        dyliss:hasSameComponentAs  reactome:Complex11288 .
+
+reactome:Complex5415  dyliss:hasSameComponentAs
+                reactome:Complex6454 .
+
+reactome:Complex13410
+        dyliss:hasSameComponentAs  reactome:Complex13372 .
+
+reactome:Complex1030  dyliss:hasSameComponentAs
+                reactome:Complex1028 .
+
+reactome:Complex403  dyliss:hasSameComponentAs
+                reactome:Complex9974 .
+
+reactome:Complex3997  dyliss:hasSameComponentAs
+                reactome:Complex3998 .
+
+reactome:Complex5173  dyliss:hasSameComponentAs
+                reactome:Complex5204 .
+
+reactome:Complex13381
+        dyliss:hasSameComponentAs  reactome:Complex13419 .
+
+reactome:Complex3124  dyliss:hasSameComponentAs
+                reactome:Complex3119 .
+
+reactome:Complex13418
+        dyliss:hasSameComponentAs  reactome:Complex13386 .
+
+reactome:Complex14866
+        dyliss:hasSameComponentAs  reactome:Complex1531 .
+
+reactome:Complex7054  dyliss:hasSameComponentAs
+                reactome:Complex14850 .
+
+reactome:Complex13034
+        dyliss:hasSameComponentAs  reactome:Complex13032 .
+
+reactome:Complex14695
+        dyliss:hasSameComponentAs  reactome:Complex14688 .
+
+reactome:Complex13389
+        dyliss:hasSameComponentAs  reactome:Complex13422 .
+
+reactome:Complex3053  dyliss:hasSameComponentAs
+                reactome:Complex12226 .
+
+reactome:Complex6616  dyliss:hasSameComponentAs
+                reactome:Complex6615 .
+
+reactome:Complex6971  dyliss:hasSameComponentAs
+                reactome:Complex3162 .
+
+reactome:Complex6061  dyliss:hasSameComponentAs
+                reactome:Complex14558 .
+
+reactome:Complex1856  dyliss:hasSameComponentAs
+                reactome:Complex1857 .
+
+reactome:Complex8652  dyliss:hasSameComponentAs
+                reactome:Complex8661 .
+
+reactome:Complex11048
+        dyliss:hasSameComponentAs  reactome:Complex10801 .
+
+reactome:Complex10097
+        dyliss:hasSameComponentAs  reactome:Complex10093 .
+
+reactome:Complex8226  dyliss:hasSameComponentAs
+                reactome:Complex2298 .
+
+reactome:Complex13426
+        dyliss:hasSameComponentAs  reactome:Complex13379 .
+
+reactome:Complex14903
+        dyliss:hasSameComponentAs  reactome:Complex14902 .
+
+reactome:Complex4943  dyliss:hasSameComponentAs
+                reactome:Complex5056 .
+
+reactome:Complex13405
+        dyliss:hasSameComponentAs  reactome:Complex13394 .
+
+reactome:Complex13397
+        dyliss:hasSameComponentAs  reactome:Complex13362 .
+
+reactome:Complex1885  dyliss:hasSameComponentAs
+                reactome:Complex1884 .
+
+reactome:Complex13376
+        dyliss:hasSameComponentAs  reactome:Complex13413 .
+
+reactome:Complex13547
+        dyliss:hasSameComponentAs  reactome:Complex2987 .
+
+reactome:Complex10155
+        dyliss:hasSameComponentAs  reactome:Complex10156 .
+
+reactome:Complex6595  dyliss:hasSameComponentAs
+                reactome:Complex6594 .
+
+reactome:Complex2068  dyliss:hasSameComponentAs
+                reactome:Complex1976 .
+
+reactome:Complex7141  dyliss:hasSameComponentAs
+                reactome:Complex13373 .
+
+reactome:Complex11056
+        dyliss:hasSameComponentAs  reactome:Complex11015 .
+
+reactome:Complex5965  dyliss:hasSameComponentAs
+                reactome:Complex3034 .
+
+reactome:Complex1793  dyliss:hasSameComponentAs
+                reactome:Complex1796 , reactome:Complex1791 .
+
+reactome:Complex3119  dyliss:hasSameComponentAs
+                reactome:Complex3124 .
+
+reactome:Complex13413
+        dyliss:hasSameComponentAs  reactome:Complex13376 .
+
+reactome:Complex7596  dyliss:hasSameComponentAs
+                reactome:Complex7594 , reactome:Complex7592 .
+
+reactome:Complex1893  dyliss:hasSameComponentAs
+                reactome:Complex1881 .
+
+reactome:Complex13384
+        dyliss:hasSameComponentAs  reactome:Complex13427 .
+
+reactome:Complex13363
+        dyliss:hasSameComponentAs  reactome:Complex13398 .
+
+reactome:Complex1851  dyliss:hasSameComponentAs
+                reactome:Complex1850 .
+
+reactome:Complex9974  dyliss:hasSameComponentAs
+                reactome:Complex403 .
+
+reactome:Complex11427
+        dyliss:hasSameComponentAs  reactome:Complex6418 .
+
+reactome:Complex3695  dyliss:hasSameComponentAs
+                reactome:Complex12999 .
+
+reactome:Complex8071  dyliss:hasSameComponentAs
+                reactome:Complex8070 .
+
+reactome:Complex13989
+        dyliss:hasSameComponentAs  reactome:Complex14000 .
+
+reactome:Complex13421
+        dyliss:hasSameComponentAs  reactome:Complex13388 .
+
+reactome:Complex13400
+        dyliss:hasSameComponentAs  reactome:Complex13369 .
+
+reactome:Complex13392
+        dyliss:hasSameComponentAs  reactome:Complex13429 .
+
+reactome:Complex13371
+        dyliss:hasSameComponentAs  reactome:Complex13402 .
+
+reactome:Complex9285  dyliss:hasSameComponentAs
+                reactome:Complex8796 .
+
+reactome:Complex9606  dyliss:hasSameComponentAs
+                reactome:Complex12802 .
+
+reactome:Complex2931  dyliss:hasSameComponentAs
+                reactome:Complex5687 .
+
+reactome:Complex2376  dyliss:hasSameComponentAs
+                reactome:Complex9258 .
+
+reactome:Complex13429
+        dyliss:hasSameComponentAs  reactome:Complex13392 .
+
+reactome:Complex4420  dyliss:hasSameComponentAs
+                reactome:Complex4421 .
+
+reactome:Complex1746  dyliss:hasSameComponentAs
+                reactome:Complex1761 , reactome:Complex1754 .
+
+reactome:Complex1028  dyliss:hasSameComponentAs
+                reactome:Complex1030 .
+
+reactome:Complex13408
+        dyliss:hasSameComponentAs  reactome:Complex13366 .
+
+reactome:Complex14685
+        dyliss:hasSameComponentAs  reactome:Complex14694 .
+
+reactome:Complex1533  dyliss:hasSameComponentAs
+                reactome:Complex4455 .
+
+reactome:Complex1888  dyliss:hasSameComponentAs
+                reactome:Complex1886 .
+
+reactome:Complex543  dyliss:hasSameComponentAs
+                reactome:Complex124 .
+
+reactome:Complex13379
+        dyliss:hasSameComponentAs  reactome:Complex13426 .
+
+reactome:Complex3406  dyliss:hasSameComponentAs
+                reactome:Complex3405 .
+
+reactome:Complex1867  dyliss:hasSameComponentAs
+                reactome:Complex1866 .
+
+reactome:Complex9806  dyliss:hasSameComponentAs
+                reactome:Complex8235 .
+
+reactome:Complex1796  dyliss:hasSameComponentAs
+                reactome:Complex1793 , reactome:Complex1791 .
+
+reactome:Complex6706  dyliss:hasSameComponentAs
+                reactome:Complex1911 .
+
+reactome:Complex1754  dyliss:hasSameComponentAs
+                reactome:Complex1761 , reactome:Complex1746 .
+
+reactome:Complex14004
+        dyliss:hasSameComponentAs  reactome:Complex13990 .
+
+reactome:Complex13416
+        dyliss:hasSameComponentAs  reactome:Complex13382 .
+
+reactome:Complex2676  dyliss:hasSameComponentAs
+                reactome:Complex2677 .
+
+reactome:Complex13032
+        dyliss:hasSameComponentAs  reactome:Complex13034 .
+
+reactome:Complex13387
+        dyliss:hasSameComponentAs  reactome:Complex13420 .
+
+reactome:Complex2826  dyliss:hasSameComponentAs
+                reactome:Complex3635 .
+
+reactome:Complex14317
+        dyliss:hasSameComponentAs  reactome:Complex14318 .
+
+reactome:Complex13366
+        dyliss:hasSameComponentAs  reactome:Complex13408 .
+
+reactome:Complex9259  dyliss:hasSameComponentAs
+                reactome:Complex2377 .
+
+reactome:Complex2776  dyliss:hasSameComponentAs
+                reactome:Complex3575 .
+
+reactome:Complex13424
+        dyliss:hasSameComponentAs  reactome:Complex13385 .
+
+reactome:Complex3635  dyliss:hasSameComponentAs
+                reactome:Complex2826 .
+
+reactome:Complex13403
+        dyliss:hasSameComponentAs  reactome:Complex13377 .
+
+reactome:Complex12999
+        dyliss:hasSameComponentAs  reactome:Complex3695 .
+
+reactome:Complex13374
+        dyliss:hasSameComponentAs  reactome:Complex13411 .
+
+reactome:Complex4728  dyliss:hasSameComponentAs
+                reactome:Complex4724 .
+
+reactome:Complex7928  dyliss:hasSameComponentAs
+                reactome:Complex7960 .
+
+reactome:Complex5124  dyliss:hasSameComponentAs
+                reactome:Complex5141 .
+
+reactome:Complex11288
+        dyliss:hasSameComponentAs  reactome:Complex11287 .
+
+reactome:Complex1820  dyliss:hasSameComponentAs
+                reactome:Complex1829 , reactome:Complex1828 , reactome:Complex1821 .
+
+reactome:Complex13816
+        dyliss:hasSameComponentAs  reactome:Complex13814 .
+
+reactome:Complex1791  dyliss:hasSameComponentAs
+                reactome:Complex1796 , reactome:Complex1793 .
+
+reactome:Complex6701  dyliss:hasSameComponentAs
+                reactome:Complex266 .
+
+reactome:Complex13411
+        dyliss:hasSameComponentAs  reactome:Complex13374 .
+
+reactome:Complex3998  dyliss:hasSameComponentAs
+                reactome:Complex3997 .
+
+reactome:Complex14880
+        dyliss:hasSameComponentAs  reactome:Complex3194 .
+
+reactome:Complex12802
+        dyliss:hasSameComponentAs  reactome:Complex9606 .
+
+reactome:Complex7594  dyliss:hasSameComponentAs
+                reactome:Complex7596 , reactome:Complex7592 .
+
+reactome:Complex13382
+        dyliss:hasSameComponentAs  reactome:Complex13416 .
+
+reactome:Complex14688
+        dyliss:hasSameComponentAs  reactome:Complex14695 .
+
+reactome:Complex2287  dyliss:hasSameComponentAs
+                reactome:Complex2370 .
+
+reactome:Complex13361
+        dyliss:hasSameComponentAs  reactome:Complex13396 .
+
+reactome:Complex12226
+        dyliss:hasSameComponentAs  reactome:Complex3053 .
+
+reactome:Complex10140
+        dyliss:hasSameComponentAs  reactome:Complex10138 .
+
+reactome:Complex13511
+        dyliss:hasSameComponentAs  reactome:Complex13622 .
+
+reactome:Complex1828  dyliss:hasSameComponentAs
+                reactome:Complex1829 , reactome:Complex1821 , reactome:Complex1820 .
+
+reactome:Complex13419
+        dyliss:hasSameComponentAs  reactome:Complex13381 .
+
+reactome:Complex7986  dyliss:hasSameComponentAs
+                reactome:Complex7716 .
+
+reactome:Complex2871  dyliss:hasSameComponentAs
+                reactome:Complex6029 .
+
+reactome:Complex13390
+        dyliss:hasSameComponentAs  reactome:Complex13428 .
+
+reactome:Complex5687  dyliss:hasSameComponentAs
+                reactome:Complex2931 .
+
+reactome:Complex13369
+        dyliss:hasSameComponentAs  reactome:Complex13400 .
+
+reactome:Complex1857  dyliss:hasSameComponentAs
+                reactome:Complex1856 .
+
+reactome:Complex3901  dyliss:hasSameComponentAs
+                reactome:Complex3902 .
+
+reactome:Complex1786  dyliss:hasSameComponentAs
+                reactome:Complex1789 .
+
+reactome:Complex3112  dyliss:hasSameComponentAs
+                reactome:Complex3115 .
+
+reactome:Complex13427
+        dyliss:hasSameComponentAs  reactome:Complex13384 .
+
+reactome:Complex1531  dyliss:hasSameComponentAs
+                reactome:Complex14866 .
+
+reactome:Complex2311  dyliss:hasSameComponentAs
+                reactome:Complex10398 .
+
+reactome:Complex13398
+        dyliss:hasSameComponentAs  reactome:Complex13363 .
+
+reactome:Complex3972  dyliss:hasSameComponentAs
+                reactome:Complex2772 .
+
+reactome:Complex6454  dyliss:hasSameComponentAs
+                reactome:Complex5415 .
+
+reactome:Complex1886  dyliss:hasSameComponentAs
+                reactome:Complex1888 .
+
+reactome:Complex13377
+        dyliss:hasSameComponentAs  reactome:Complex13403 .
+
+reactome:Complex13719
+        dyliss:hasSameComponentAs  reactome:Complex13735 .
+
+reactome:Complex10156
+        dyliss:hasSameComponentAs  reactome:Complex10155 .
+
+reactome:Complex6596  dyliss:hasSameComponentAs
+                reactome:Complex6599 .
+
+reactome:Complex8661  dyliss:hasSameComponentAs
+                reactome:Complex8652 .
+
+reactome:Complex1986  dyliss:hasSameComponentAs
+                reactome:Complex1992 .
+
+reactome:Complex2574  dyliss:hasSameComponentAs
+                reactome:Complex2575 .
+
+reactome:Complex5966  dyliss:hasSameComponentAs
+                reactome:Complex3057 .
+
+reactome:Complex3162  dyliss:hasSameComponentAs
+                reactome:Complex6971 .
+
+reactome:Complex5056  dyliss:hasSameComponentAs
+                reactome:Complex4943 .
+
+reactome:Complex11015
+        dyliss:hasSameComponentAs  reactome:Complex11056 .
+
+reactome:Complex8235  dyliss:hasSameComponentAs
+                reactome:Complex9806 .
+
+reactome:Complex14002
+        dyliss:hasSameComponentAs  reactome:Complex13991 .
+
+reactome:Complex13414
+        dyliss:hasSameComponentAs  reactome:Complex13378 .
+
+reactome:Complex10398
+        dyliss:hasSameComponentAs  reactome:Complex2311 .
+
+reactome:Complex7960  dyliss:hasSameComponentAs
+                reactome:Complex7928 .
+
+reactome:Complex13385
+        dyliss:hasSameComponentAs  reactome:Complex13424 .
+
+reactome:Complex2987  dyliss:hasSameComponentAs
+                reactome:Complex13547 .
+
+reactome:Complex3575  dyliss:hasSameComponentAs
+                reactome:Complex2776 .
+
+reactome:Complex9257  dyliss:hasSameComponentAs
+                reactome:Complex2375 .
+
+reactome:Complex1994  dyliss:hasSameComponentAs
+                reactome:Complex1997 .
+
+reactome:Complex10093
+        dyliss:hasSameComponentAs  reactome:Complex10097 .
+
+reactome:Complex4455  dyliss:hasSameComponentAs
+                reactome:Complex1533 .
+
+reactome:Complex13990
+        dyliss:hasSameComponentAs  reactome:Complex14004 .
+
+reactome:Complex13422
+        dyliss:hasSameComponentAs  reactome:Complex13389 .
+
+reactome:Complex13735
+        dyliss:hasSameComponentAs  reactome:Complex13719 .
+
+reactome:Complex13401
+        dyliss:hasSameComponentAs  reactome:Complex13370 .
+
+reactome:Complex13393
+        dyliss:hasSameComponentAs  reactome:Complex13423 .
+
+reactome:Complex13372
+        dyliss:hasSameComponentAs  reactome:Complex13410 .
+
+reactome:Complex4918  dyliss:hasSameComponentAs
+                reactome:Complex4945 .
+
+reactome:Complex2298  dyliss:hasSameComponentAs
+                reactome:Complex8226 .
+
+reactome:Complex1881  dyliss:hasSameComponentAs
+                reactome:Complex1893 .
+
+reactome:Complex3057  dyliss:hasSameComponentAs
+                reactome:Complex5966 .
+
+reactome:Complex13814
+        dyliss:hasSameComponentAs  reactome:Complex13816 .
+
+reactome:Complex2377  dyliss:hasSameComponentAs
+                reactome:Complex9259 .
+
+reactome:Complex1789  dyliss:hasSameComponentAs
+                reactome:Complex1786 .
+
+reactome:Complex13622
+        dyliss:hasSameComponentAs  reactome:Complex13511 .
+
+reactome:Complex4421  dyliss:hasSameComponentAs
+                reactome:Complex4420 .
+
+reactome:Complex3115  dyliss:hasSameComponentAs
+                reactome:Complex3112 .
+
+reactome:Complex1747  dyliss:hasSameComponentAs
+                reactome:Complex1776 , reactome:Complex1771 , reactome:Complex1766 .
+
+reactome:Complex13409
+        dyliss:hasSameComponentAs  reactome:Complex13367 .
+
+reactome:Complex7592  dyliss:hasSameComponentAs
+                reactome:Complex7596 , reactome:Complex7594 .
+
+reactome:Complex13380
+        dyliss:hasSameComponentAs  reactome:Complex13415 .
+
+reactome:Complex10138
+        dyliss:hasSameComponentAs  reactome:Complex10140 .
+
+reactome:Complex6599  dyliss:hasSameComponentAs
+                reactome:Complex6596 .
+
+reactome:Complex1776  dyliss:hasSameComponentAs
+                reactome:Complex1771 , reactome:Complex1766 , reactome:Complex1747 .
+
+reactome:Complex13417
+        dyliss:hasSameComponentAs  reactome:Complex13383 .
+
+reactome:Complex2677  dyliss:hasSameComponentAs
+                reactome:Complex2676 .
+
+reactome:Complex14694
+        dyliss:hasSameComponentAs  reactome:Complex14685 .
+
+reactome:Complex14318
+        dyliss:hasSameComponentAs  reactome:Complex14317 .
+
+reactome:Complex13388
+        dyliss:hasSameComponentAs  reactome:Complex13421 .
+
+reactome:Complex6615  dyliss:hasSameComponentAs
+                reactome:Complex6616 .
+
+reactome:Complex1876  dyliss:hasSameComponentAs
+                reactome:Complex1863 .
+
+reactome:Complex13367
+        dyliss:hasSameComponentAs  reactome:Complex13409 .
+
+reactome:Complex6060  dyliss:hasSameComponentAs
+                reactome:Complex2867 .
+
+reactome:Complex1855  dyliss:hasSameComponentAs
+                reactome:Complex6613 .
+
+reactome:Complex3194  dyliss:hasSameComponentAs
+                reactome:Complex14880 .
+
+reactome:Complex1997  dyliss:hasSameComponentAs
+                reactome:Complex1994 .
+
+reactome:Complex10801
+        dyliss:hasSameComponentAs  reactome:Complex11048 .
+
+reactome:Complex1976  dyliss:hasSameComponentAs
+                reactome:Complex2068 .
+
+reactome:Complex14902
+        dyliss:hasSameComponentAs  reactome:Complex14903 .
+
+reactome:Complex13404
+        dyliss:hasSameComponentAs  reactome:Complex13391 .
+
+reactome:Complex13396
+        dyliss:hasSameComponentAs  reactome:Complex13361 .
+
+reactome:Complex1884  dyliss:hasSameComponentAs
+                reactome:Complex1885 .
+
+reactome:Complex13375
+        dyliss:hasSameComponentAs  reactome:Complex13412 .
+
+reactome:Complex6978  dyliss:hasSameComponentAs
+                reactome:Complex6976 .
+
+reactome:Complex1863  dyliss:hasSameComponentAs
+                reactome:Complex1876 .
+
+reactome:Complex7716  dyliss:hasSameComponentAs
+                reactome:Complex7986 .
+
+reactome:Complex6594  dyliss:hasSameComponentAs
+                reactome:Complex6595 .
+
+reactome:Complex1821  dyliss:hasSameComponentAs
+                reactome:Complex1829 , reactome:Complex1828 , reactome:Complex1820 .
+
+reactome:Complex5204  dyliss:hasSameComponentAs
+                reactome:Complex5173 .
+
+reactome:Complex1771  dyliss:hasSameComponentAs
+                reactome:Complex1776 , reactome:Complex1766 , reactome:Complex1747 .
+
+reactome:Complex14000
+        dyliss:hasSameComponentAs  reactome:Complex13989 .
+
+reactome:Complex13412
+        dyliss:hasSameComponentAs  reactome:Complex13375 .
+
+reactome:Complex13383
+        dyliss:hasSameComponentAs  reactome:Complex13417 .
+
+reactome:Complex13362
+        dyliss:hasSameComponentAs  reactome:Complex13397 .
+
+reactome:Complex1850  dyliss:hasSameComponentAs
+                reactome:Complex1851 .
+
+reactome:Complex6418  dyliss:hasSameComponentAs
+                reactome:Complex11427 .
+
+reactome:Complex6944  dyliss:hasSameComponentAs
+                reactome:Complex6947 .
+
+reactome:Complex1829  dyliss:hasSameComponentAs
+                reactome:Complex1828 , reactome:Complex1821 , reactome:Complex1820 .
+
+reactome:Complex2772  dyliss:hasSameComponentAs
+                reactome:Complex3972 .
+
+reactome:Complex1992  dyliss:hasSameComponentAs
+                reactome:Complex1986 .
+
+reactome:Complex8070  dyliss:hasSameComponentAs
+                reactome:Complex8071 .
+
+reactome:Complex13420
+        dyliss:hasSameComponentAs  reactome:Complex13387 .
+
+reactome:Complex13391
+        dyliss:hasSameComponentAs  reactome:Complex13404 .
+
+reactome:Complex5141  dyliss:hasSameComponentAs
+                reactome:Complex5124 .
+
+reactome:Complex4724  dyliss:hasSameComponentAs
+                reactome:Complex4728 .
+
+reactome:Complex13370
+        dyliss:hasSameComponentAs  reactome:Complex13401 .
+
+reactome:Complex3034  dyliss:hasSameComponentAs
+                reactome:Complex5965 .
+
+reactome:Complex3902  dyliss:hasSameComponentAs
+                reactome:Complex3901 .
+
+reactome:Complex8796  dyliss:hasSameComponentAs
+                reactome:Complex9285 .
+
+reactome:Complex2375  dyliss:hasSameComponentAs
+                reactome:Complex9257 .
+
+reactome:Complex1766  dyliss:hasSameComponentAs
+                reactome:Complex1776 , reactome:Complex1771 , reactome:Complex1747 .
+
+reactome:Complex13428
+        dyliss:hasSameComponentAs  reactome:Complex13390 .
+
+reactome:Complex4945  dyliss:hasSameComponentAs
+                reactome:Complex4918 .
+
+reactome:Complex13407
+        dyliss:hasSameComponentAs  reactome:Complex13365 .
+
+reactome:Complex13378
+        dyliss:hasSameComponentAs  reactome:Complex13414 .
+
+reactome:Complex3405  dyliss:hasSameComponentAs
+                reactome:Complex3406 .
+
+reactome:Complex1866  dyliss:hasSameComponentAs
+                reactome:Complex1867 .
+
+reactome:Complex6029  dyliss:hasSameComponentAs
+                reactome:Complex2871 .
+
+reactome:Complex2575  dyliss:hasSameComponentAs
+                reactome:Complex2574 .
+
+reactome:Complex13415
+        dyliss:hasSameComponentAs  reactome:Complex13380 .
+
+reactome:Complex2867  dyliss:hasSameComponentAs
+                reactome:Complex6060 .
+
+reactome:Complex13386
+        dyliss:hasSameComponentAs  reactome:Complex13418 .
+
+reactome:Complex6613  dyliss:hasSameComponentAs
+                reactome:Complex1855 .
+
+reactome:Complex13365
+        dyliss:hasSameComponentAs  reactome:Complex13407 .
+
+reactome:Complex9258  dyliss:hasSameComponentAs
+                reactome:Complex2376 .
+
+reactome:Complex6947  dyliss:hasSameComponentAs
+                reactome:Complex6944 .
+
+reactome:Complex124  dyliss:hasSameComponentAs
+                reactome:Complex543 .
